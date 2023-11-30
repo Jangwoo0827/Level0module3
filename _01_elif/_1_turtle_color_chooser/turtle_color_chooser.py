@@ -15,9 +15,18 @@ if __name__ == '__main__':
     window.bgcolor('white')
 
     # TODO 1) Create a new Turtle
+    import turtle
+    q = turtle
     #      2) Make the turtle draw a shape (this will take more than one line
     #         of code)
+    q.forward(50)
+    q.right(120)
+    q.forward(50)
+    q.right(120)
+    q.forward(50)
+    q.right(120)
     #      3) Set the pen width to 10
+
     #      4) Ask the user what color pen they would like to draw with
     #      5) Use an if/else statement to set the pen color that the user
     #         requested
